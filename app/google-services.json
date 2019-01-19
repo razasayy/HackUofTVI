@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "155978338119",
+    "firebase_url": "https://hackuoftvi.firebaseio.com",
+    "project_id": "hackuoftvi",
+    "storage_bucket": "hackuoftvi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155978338119:android:f7ab03d9d3fb00de",
+        "android_client_info": {
+          "package_name": "com.example.omair.migrateto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155978338119-qvk8jqdslnusgrvd7omiv8kgb4oo1f4b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpG_UlO4w6pfGtwQfWnp_GG-z0H42vpwY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
