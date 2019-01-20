@@ -8,48 +8,6 @@
     tools:context=".SpeechTranslation"
     tools:showIn="@layout/activity_speech_translation">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tap to talk"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="231dp" />
 
-    <Button
-        android:id="@+id/photo_translate"
-        android:layout_width="68dp"
-        android:layout_height="66dp"
-        android:background="@android:color/transparent"
-        android:text=""
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="662dp" />
-
-    <Button
-        android:id="@+id/voice_translate"
-        android:layout_width="68dp"
-        android:layout_height="66dp"
-        android:background="@android:color/transparent"
-        android:text=""
-        tools:layout_editor_absoluteX="171dp"
-        tools:layout_editor_absoluteY="662dp" />
-
-    <Button
-        android:id="@+id/resources"
-        android:layout_width="68dp"
-        android:layout_height="66dp"
-        android:background="@android:color/transparent"
-        android:text=""
-        tools:layout_editor_absoluteX="252dp"
-        tools:layout_editor_absoluteY="662dp" />
-
-    <Button
-        android:id="@+id/post"
-        android:layout_width="68dp"
-        android:layout_height="66dp"
-        android:background="@android:color/transparent"
-        android:text=""
-        tools:layout_editor_absoluteX="327dp"
-        tools:layout_editor_absoluteY="662dp" />
 
 </android.support.constraint.ConstraintLayout>

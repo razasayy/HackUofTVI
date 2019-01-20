@@ -7,96 +7,148 @@
     tools:context=".resources_homepage">
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="414dp"
-        android:layout_height="993dp"
+        android:layout_height="650dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/map"
         android:orientation="vertical"
         android:weightSum="1.0"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/bottom_bar"
         android:layout_width="wrap_content"
         android:layout_height="78dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:src="@drawable/bottom_bar2"
         app:layout_constraintBottom_toBottomOf="parent"
-  />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
         android:id="@+id/local_button"
         android:layout_width="wrap_content"
         android:layout_height="78dp"
-        android:layout_marginBottom="368dp"
+        android:layout_marginBottom="364dp"
         android:src="@drawable/local_button"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/national_button"
         android:layout_width="wrap_content"
         android:layout_height="78dp"
+        android:layout_marginTop="8dp"
         android:layout_marginBottom="204dp"
         android:src="@drawable/national_button"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.927" />
+
     <ImageView
         android:id="@+id/header"
         android:layout_width="412dp"
         android:layout_height="78dp"
-        android:src="@drawable/Header" />
+        android:src="@drawable/Header"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/resource_label"
         android:layout_width="250dp"
         android:layout_height="78dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:src="@drawable/resource_label"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="100dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/home"
         android:layout_width="68dp"
         android:layout_height="66dp"
-        android:text=""
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="664dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:background="@android:color/transparent"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="662dp" />
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/photo_translate"
         android:layout_width="68dp"
         android:layout_height="66dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="660dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:background="@android:color/transparent"
         android:text=""
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="662dp" />
+        app:layout_constraintEnd_toEndOf="@+id/bottom_bar"
+        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/voice_translate"
         android:layout_width="68dp"
         android:layout_height="66dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="660dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:background="@android:color/transparent"
         android:text=""
-        tools:layout_editor_absoluteX="171dp"
-        tools:layout_editor_absoluteY="662dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/header" />
 
     <Button
         android:id="@+id/resources"
         android:layout_width="68dp"
         android:layout_height="66dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="660dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:background="@android:color/transparent"
         android:text=""
-        tools:layout_editor_absoluteX="252dp"
-        tools:layout_editor_absoluteY="662dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.743"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/post"
         android:layout_width="68dp"
         android:layout_height="66dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="660dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:background="@android:color/transparent"
         android:text=""
-        tools:layout_editor_absoluteX="327dp"
-        tools:layout_editor_absoluteY="662dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
