@@ -74,21 +74,12 @@
         tools:layout_editor_absoluteY="239dp" />
 
     <ImageView
-        android:id="@+id/icons_at_bottom"
+        android:id="@+id/bottom_bar"
         android:layout_width="wrap_content"
-        android:layout_height="62dp"
-        android:layout_centreHorizontal="true"
-        android:layout_marginTop="652dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        android:src="@drawable/icons_at_bottom"
-        app:layout_constraintBottom_toBottomOf="@+id/include"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/local_top_bar"
-        app:layout_constraintVertical_bias="1.0" />
+        android:layout_height="78dp"
+        android:src="@drawable/bottom_bar2"
+        tools:layout_editor_absoluteY="653dp" />
+
 
 
     <TextView
@@ -99,6 +90,41 @@
         tools:layout_editor_absoluteX="150dp"
         tools:layout_editor_absoluteY="106dp" />
 
+    <Button
+        android:id="@+id/photo_translate"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="662dp" />
+
+    <Button
+        android:id="@+id/voice_translate"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="662dp" />
+
+    <Button
+        android:id="@+id/resources"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="662dp" />
+
+    <Button
+        android:id="@+id/post"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="662dp" />
 
 </android.support.constraint.ConstraintLayout>
 
