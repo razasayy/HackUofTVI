@@ -20,6 +20,7 @@ public class login_screen extends AppCompatActivity {
     private EditText userName;
     private EditText pWord;
     private TextView status;
+    private Button signup;
 
     @Override
 
@@ -31,6 +32,15 @@ public class login_screen extends AppCompatActivity {
         userName = findViewById(R.id.login_username);
         pWord = findViewById(R.id.login_password);
         status = findViewById(R.id.login_fail_box);
+        signup = findViewById(R.id.button);
+
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent( login_screen.this, profile_info.class);
+                startActivity(intent);
+            }
+        });
 
         final Button login_button = findViewById(R.id.login_button);
         login_button.setOnClickListener(new View.OnClickListener() {
