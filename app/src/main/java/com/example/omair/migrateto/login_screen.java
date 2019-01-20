@@ -17,17 +17,20 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class login_screen extends AppCompatActivity {
     private FirebaseAuth mAuth;
-    private EditText userName = findViewById(R.id.login_username);
-    private EditText pWord = findViewById(R.id.login_password);
-    private TextView status = findViewById(R.id.login_fail_box);
+    private EditText userName;
+    private EditText pWord;
+    private TextView status;
 
     @Override
 
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_screen);
 
         mAuth = FirebaseAuth.getInstance();
+        userName = findViewById(R.id.login_username);
+        pWord = findViewById(R.id.login_password);
+        status = findViewById(R.id.login_fail_box);
 
         final Button login_button = findViewById(R.id.login_button);
         login_button.setOnClickListener(new View.OnClickListener() {
@@ -44,7 +47,8 @@ public class login_screen extends AppCompatActivity {
                                 if (task.isSuccessful()) {
                                     // Sign in success, update UI with the signed-in user's information
                                     FirebaseUser user = mAuth.getCurrentUser();
-                                    //TODO: send to next activity(main)
+                                    Intent intent = new Intent( login_screen.this, MainActivity.class);
+                                    startActivity(intent);
                                 }
                                 if (!task.isSuccessful()) {
                                     status.setText("Login Failed");
