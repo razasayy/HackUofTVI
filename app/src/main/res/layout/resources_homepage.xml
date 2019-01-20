@@ -7,20 +7,96 @@
     tools:context=".resources_homepage">
 
     <ImageView
-        android:layout_width="fill_parent"
-        android:background = "@drawable/map"
-        android:layout_height="fill_parent"
+        android:layout_width="414dp"
+        android:layout_height="993dp"
+        android:background="@drawable/map"
         android:orientation="vertical"
-        android:weightSum="1.0" />
-
-
+        android:weightSum="1.0"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
 
     <ImageView
-        android:id="@+id/icons_at_bottom"
-        android:layout_marginTop="657dp"
-        android:layout_below="@+id/header"
-        android:src="@drawable/icons_at_bottom"
-        android:layout_centreHorizontal= "true"
+        android:id="@+id/bottom_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:src="@drawable/bottom_bar2"
+        app:layout_constraintBottom_toBottomOf="parent"
+  />
+
+    <ImageView
+        android:id="@+id/local_button"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_marginBottom="368dp"
+        android:src="@drawable/local_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/national_button"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_marginBottom="204dp"
+        android:src="@drawable/national_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+    <ImageView
+        android:id="@+id/header"
         android:layout_width="412dp"
-        android:layout_height="78dp" />
+        android:layout_height="78dp"
+        android:src="@drawable/Header" />
+
+    <ImageView
+        android:id="@+id/resource_label"
+        android:layout_width="250dp"
+        android:layout_height="78dp"
+        android:src="@drawable/resource_label"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:text=""
+        android:background="@android:color/transparent"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="662dp" />
+
+    <Button
+        android:id="@+id/photo_translate"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="662dp" />
+
+    <Button
+        android:id="@+id/voice_translate"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="662dp" />
+
+    <Button
+        android:id="@+id/resource_translate"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="662dp" />
+
+    <Button
+        android:id="@+id/post_translate"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="662dp" />
+
 </android.support.constraint.ConstraintLayout>
