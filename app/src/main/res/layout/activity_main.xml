@@ -86,5 +86,49 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/translation"
         app:layout_constraintVertical_bias="0.0" />
+    <Button
+        android:id="@+id/home"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:text=""
+        android:background="@android:color/transparent"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="662dp" />
+
+    <Button
+        android:id="@+id/photo_translate"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="662dp" />
+
+    <Button
+        android:id="@+id/voice_translate"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="662dp" />
+
+    <Button
+        android:id="@+id/resources"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="662dp" />
+
+    <Button
+        android:id="@+id/post"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="662dp" />
 
 </android.support.constraint.ConstraintLayout>
