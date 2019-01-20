@@ -19,9 +19,14 @@ public class intro extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         mAuth = FirebaseAuth.getInstance();
         randomfact = findViewById(R.id.textView2);
         randomtrans = findViewById(R.id.textView3);
         userName = findViewById(R.id.textView4);
+
+
+
+
     }
 }
