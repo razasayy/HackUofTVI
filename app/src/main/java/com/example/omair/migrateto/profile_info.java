@@ -56,7 +56,7 @@ public class profile_info extends AppCompatActivity {
         // Check if user is signed in (non-null) and update UI accordingly.
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if(currentUser != null){
-            Intent intent = new Intent( profile_info.this, MainActivity.class);
+            Intent intent = new Intent( profile_info.this, intro.class);
             startActivity(intent);
 
         }
