@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resources_local">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_resources_local" />
+
+
+
+    <ImageView
+        android:id="@+id/local_top_bar"
+        android:layout_width="412dp"
+        android:layout_height="70dp"
+        android:layout_centreHorizontal="true"
+        android:src="@drawable/national_selection"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="413dp"
+        android:layout_height="99dp"
+        android:text="Jobs"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="413dp"
+        android:layout_height="99dp"
+        android:text="Language Assessment"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="413dp"
+        android:layout_height="99dp"
+        android:text="Education System"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="506dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="413dp"
+        android:layout_height="103dp"
+        android:text="Citizenship"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="413dp"
+        android:layout_height="99dp"
+        android:text="Health System"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="234dp" />
+    <ImageView
+        android:id="@+id/icons_at_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_centreHorizontal="true"
+        android:layout_marginTop="652dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/icons_at_bottom"
+        app:layout_constraintBottom_toBottomOf="@+id/include"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/local_top_bar"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="National Resources"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    </android.support.constraint.ConstraintLayout>
+
