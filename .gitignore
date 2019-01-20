@@ -42,6 +42,7 @@ build/
 captures/
 output.json 
 
+*/build_file_checksums.ser
 #NDK
 obj/
 .externalNativeBuild

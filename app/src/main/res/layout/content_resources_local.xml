@@ -5,15 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".SpeechTranslation"
-    tools:showIn="@layout/activity_speech_translation">
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tap to talk"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="231dp" />
+    tools:context=".resources_local"
+    tools:showIn="@layout/resources_local">
 
 </android.support.constraint.ConstraintLayout>
