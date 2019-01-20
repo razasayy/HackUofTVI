@@ -20,14 +20,54 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_main" />
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="412dp"
+        android:layout_height="78dp"
+        android:src="@drawable/Header" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
+    <ImageView
+        android:id="@+id/icons_at_bottom"
+        android:layout_marginTop="657dp"
+        android:layout_below="@+id/header"
+        android:src="@drawable/icons_at_bottom"
+        android:layout_centreHorizontal= "true"
+        android:layout_width="412dp"
+        android:layout_height="78dp" />
+
+    <ImageView
+        android:id="@+id/interesting_facts"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/interesting_facts"
+        android:layout_centreHorizontal= "true"
+        android:layout_width="412dp"
+        android:layout_height="78dp" />
+
+    <ImageView
+        android:id="@+id/translation"
+        android:layout_marginTop="280dp"
+        android:src="@drawable/Translation"
+        android:layout_centreHorizontal= "true"
+        android:layout_width="412dp"
+        android:layout_height="78dp" />
+
+    <TextView
+        android:id="@+id/Welcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="70dp"
+        android:fontFamily="Roboto"
+        android:text="Welcome to Thrive!"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/myprofile"
+        android:src="@drawable/myprofile"
+        android:layout_marginTop="410dp"
+        android:layout_centreHorizontal= "true"
+        android:layout_width="412dp"
+        android:layout_height="254dp" />
+
 
 </android.support.design.widget.CoordinatorLayout>
