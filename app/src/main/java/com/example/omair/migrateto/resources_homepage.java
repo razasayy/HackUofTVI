@@ -8,6 +8,6 @@ public class resources_homepage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.resources_homepage);
+        setContentView(R.layout.resources_national);
     }
 }
