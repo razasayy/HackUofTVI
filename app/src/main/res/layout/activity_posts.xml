@@ -2,14 +2,13 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/coordinatorLayout3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SpeechTranslation">
+    tools:context=".Posts">
 
     <ImageView
         android:id="@+id/header"
-        android:layout_width="wrap_content"
+        android:layout_width="412dp"
         android:layout_height="78dp"
         android:src="@drawable/Header"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,16 +24,27 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/speech_to_text"
-        android:layout_width="wrap_content"
-        android:layout_height="297dp"
+        android:id="@+id/community_posts"
+        android:layout_width="412dp"
+        android:layout_height="78dp"
         android:layout_marginTop="108dp"
-        android:layout_marginBottom="8dp"
-        android:src="@drawable/speech_to_text"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/community_posts"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="@+id/header" />
 
+    <ImageView
+        android:id="@+id/community_channel"
+        android:layout_width="412dp"
+        android:layout_height="445dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/community_channel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/header"
+        app:layout_constraintVertical_bias="0.0" />
 
 </android.support.constraint.ConstraintLayout>
