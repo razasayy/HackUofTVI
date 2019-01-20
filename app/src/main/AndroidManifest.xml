@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".profile_info"
+            android:label="@string/title_activity_profile_info"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".login_screen"
+            android:label="@string/title_activity_login_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
@@ -22,7 +30,7 @@
         <activity
             android:name=".SpeechTranslation"
             android:label="@string/title_activity_speech_translation"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

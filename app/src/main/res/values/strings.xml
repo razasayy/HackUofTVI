@@ -2,4 +2,6 @@
     <string name="app_name">MigrateTO</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_speech_translation">SpeechTranslation</string>
+    <string name="title_activity_login_screen">login_screen</string>
+    <string name="title_activity_profile_info">profile_info</string>
 </resources>
