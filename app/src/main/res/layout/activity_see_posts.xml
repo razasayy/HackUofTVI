@@ -4,18 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".making_posts">
+    tools:context=".see_posts">
 
     <ImageView
-        android:id="@+id/making_posts_header"
+        android:id="@+id/see_posts_header"
         android:layout_width="412dp"
         android:layout_height="78dp"
-        android:src="@drawable/header"
+        android:src="@drawable/back_header"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/making_posts_icons_at_bottom"
+        android:id="@+id/see_posts_icons_at_bottom"
         android:layout_width="wrap_content"
         android:layout_height="78dp"
         android:layout_marginBottom="4dp"
@@ -24,38 +24,49 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/community_posts"
-        android:layout_width="366dp"
-        android:layout_height="95dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="88dp"
-        android:src="@drawable/community_posts"
+        android:id="@+id/see_posts_community_posts"
+        android:layout_width="424dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="92dp"
+        android:src="@drawable/see_my_posts"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/making_posts_header" />
+        app:layout_constraintTop_toTopOf="@+id/see_posts_header" />
 
     <ImageView
-        android:id="@+id/make_post"
-        android:layout_width="wrap_content"
-        android:layout_height="78dp"
-        android:layout_marginBottom="436dp"
-        android:src="@drawable/make_post"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageView
-        android:id="@+id/write_post"
+        android:id="@+id/previous_post1"
         android:layout_width="343dp"
         android:layout_height="150dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginBottom="204dp"
+        android:layout_marginBottom="96dp"
+        android:src="@drawable/write_something"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/previous_post2"
+        android:layout_width="343dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="244dp"
+        android:src="@drawable/write_something"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/previous_post3"
+        android:layout_width="343dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="392dp"
         android:src="@drawable/write_something"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/making_posts_home"
+        android:id="@+id/see_posts_home"
         android:layout_width="68dp"
         android:layout_height="66dp"
         android:layout_marginStart="16dp"
@@ -67,7 +78,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/making_posts_photo_translate"
+        android:id="@+id/see_posts_photo_translate"
         android:layout_width="68dp"
         android:layout_height="66dp"
         android:layout_marginStart="68dp"
@@ -76,10 +87,10 @@
         android:background="@android:color/transparent"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/making_posts_home" />
+        app:layout_constraintStart_toStartOf="@+id/see_posts_home" />
 
     <Button
-        android:id="@+id/making_posts_voice_translate"
+        android:id="@+id/see_posts_voice_translate"
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:layout_marginEnd="172dp"
@@ -88,10 +99,10 @@
         android:background="@android:color/transparent"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/making_posts_icons_at_bottom" />
+        app:layout_constraintEnd_toEndOf="@+id/see_posts_icons_at_bottom" />
 
     <Button
-        android:id="@+id/making_posts_resources"
+        android:id="@+id/see_posts_resources"
         android:layout_width="68dp"
         android:layout_height="66dp"
         android:layout_marginEnd="84dp"
@@ -103,7 +114,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/making_posts_post_icon"
+        android:id="@+id/see_posts_post_icon"
         android:layout_width="68dp"
         android:layout_height="66dp"
         android:layout_marginEnd="16dp"
@@ -113,34 +124,5 @@
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
-        android:id="@+id/see_my_posts"
-        android:layout_width="160dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="124dp"
-        android:layout_marginLeft="124dp"
-        android:layout_marginBottom="116dp"
-        android:text="See My Posts"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/Welcome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="352dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:fontFamily="Roboto"
-        android:text="Write Something..."
-        android:textSize="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.105"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
 
 </android.support.constraint.ConstraintLayout>
