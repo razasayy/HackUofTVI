@@ -32,7 +32,7 @@ public class login_screen extends AppCompatActivity {
         userName = findViewById(R.id.login_username);
         pWord = findViewById(R.id.login_password);
         status = findViewById(R.id.login_fail_box);
-        signup = findViewById(R.id.button);
+        signup = findViewById(R.id.existing_user_button);
 
         signup.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -32,10 +32,10 @@ public class profile_info extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_info);
         existing = findViewById(R.id.existing_user_button);
-        done = findViewById(R.id.done_button);
+        done = findViewById(R.id.activity_profile_done_button);
         language = findViewById(R.id.language_input);
         email = findViewById(R.id.username_input);
-        pWord = findViewById(R.id.password_input);
+        pWord = findViewById(R.id.profile_password_input);
         pWord2 = findViewById(R.id.re_enter_password_input);
         Name = findViewById(R.id.full_name_input);
         City = findViewById(R.id.new_city_input);
