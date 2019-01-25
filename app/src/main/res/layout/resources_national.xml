@@ -73,7 +73,6 @@
         android:id="@+id/national_resources_icons_at_bottom"
         android:layout_width="wrap_content"
         android:layout_height="62dp"
-        android:layout_centreHorizontal="true"
         android:layout_marginBottom="8dp"
         android:src="@drawable/icons_at_bottom"
         app:layout_constraintBottom_toBottomOf="parent"
