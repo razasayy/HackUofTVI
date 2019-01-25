@@ -7,7 +7,7 @@
     tools:context=".sign_up_page">
 
     <ImageView
-        android:id="@+id/header"
+        android:id="@+id/sign_up_page_header"
         android:layout_width="412dp"
         android:layout_height="78dp"
         android:src="@drawable/Header"
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/password_input"
+        android:id="@+id/sign_up_password_input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="76dp"
@@ -46,7 +46,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/re-enter_password_input"
+        android:id="@+id/sign_up_re-enter_password_input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="76dp"
@@ -86,7 +86,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/full_name_input"
+        android:id="@+id/sign_up_full_name_input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="76dp"
@@ -99,7 +99,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/new_city_input"
+        android:id="@+id/sign_up_new_city_input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -119,7 +119,7 @@
         app:layout_constraintVertical_bias="0.717" />
 
     <EditText
-        android:id="@+id/language_input"
+        android:id="@+id/sign_up_language_input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="76dp"

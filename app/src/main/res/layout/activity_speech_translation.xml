@@ -9,7 +9,7 @@
 
 
     <ImageView
-        android:id="@+id/header"
+        android:id="@+id/speech_translation_header"
         android:layout_width="wrap_content"
         android:layout_height="78dp"
         android:src="@drawable/Header"
@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/icons_at_bottom"
+        android:id="@+id/speech_translation_icons_at_bottom"
         android:layout_width="wrap_content"
         android:layout_height="62dp"
         android:layout_marginBottom="8dp"
@@ -28,7 +28,7 @@
     <ImageView
         android:id="@+id/speech_to_text"
         android:layout_width="wrap_content"
-        android:layout_height="297dp"
+        android:layout_height="295dp"
         android:layout_marginTop="108dp"
         android:layout_marginBottom="8dp"
         android:src="@drawable/speech_to_text"
@@ -42,14 +42,14 @@
         android:layout_width="255dp"
         android:layout_height="246dp"
         android:layout_marginTop="188dp"
-        android:layout_marginEnd="80dp"
-        android:layout_marginRight="80dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
         android:background="@android:color/transparent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/header" />
+        app:layout_constraintTop_toTopOf="@+id/speech_translation_header" />
 
     <Button
-        android:id="@+id/home"
+        android:id="@+id/speech_translation_home"
         android:layout_width="68dp"
         android:layout_height="66dp"
         android:layout_marginStart="8dp"
@@ -65,7 +65,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/photo_translate"
+        android:id="@+id/speech_translation_photo_translate"
         android:layout_width="68dp"
         android:layout_height="66dp"
         android:layout_marginStart="8dp"
@@ -81,7 +81,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/voice_translate"
+        android:id="@+id/speech_translation_voice_translate"
         android:layout_width="68dp"
         android:layout_height="66dp"
         android:layout_marginStart="180dp"
@@ -97,7 +97,7 @@
         app:layout_constraintTop_toTopOf="@+id/header" />
 
     <Button
-        android:id="@+id/resources"
+        android:id="@+id/speech_translation_resources"
         android:layout_width="68dp"
         android:layout_height="66dp"
         android:layout_marginStart="8dp"
@@ -113,7 +113,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/post"
+        android:id="@+id/speech_translation_post"
         android:layout_width="68dp"
         android:layout_height="66dp"
         android:layout_marginStart="8dp"

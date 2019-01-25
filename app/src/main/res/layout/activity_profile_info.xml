@@ -19,7 +19,7 @@
         android:text="Existing User"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/header"
+        app:layout_constraintTop_toTopOf="@+id/profile_info_header"
         app:layout_constraintVertical_bias="0.98" />
 
     <include
@@ -29,10 +29,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="356dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/header" />
+        app:layout_constraintTop_toTopOf="@+id/profile_info_header" />
 
     <ImageView
-        android:id="@+id/header"
+        android:id="@+id/profile_info_header"
         android:layout_width="412dp"
         android:layout_height="78dp"
         android:src="@drawable/Header"
@@ -49,6 +49,19 @@
         android:ems="10"
         android:hint="Username"
         android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/profile_password_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="224dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -86,20 +99,7 @@
         app:layout_constraintVertical_bias="0.717" />
 
     <EditText
-        android:id="@+id/password_input"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
-        android:layout_marginLeft="76dp"
-        android:layout_marginTop="224dp"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/re-enter_password_input"
+        android:id="@+id/re_enter_password_input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="76dp"
@@ -123,7 +123,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/header"
+        app:layout_constraintTop_toTopOf="@+id/profile_info_header"
         app:layout_constraintVertical_bias="0.208" />
 
     <EditText
@@ -140,7 +140,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/done_button"
+        android:id="@+id/activity_profile_done_button"
         android:layout_width="167dp"
         android:layout_height="52dp"
         android:layout_marginStart="40dp"
@@ -150,7 +150,7 @@
         android:text="Done"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/header"
+        app:layout_constraintTop_toTopOf="@+id/profile_info_header"
         app:layout_constraintVertical_bias="0.981" />
 
 

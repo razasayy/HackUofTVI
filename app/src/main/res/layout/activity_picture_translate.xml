@@ -7,12 +7,63 @@
     tools:context=".picture_translate">
 
     <ImageView
+        android:id="@+id/picture_translate_screen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/picture_translation"
         android:orientation="vertical"
         android:weightSum="1.0"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/picture_translate_home"
+        android:layout_width="53dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/picture_translate_icon"
+        android:layout_width="53dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/picture_translate_voice_icon"
+        android:layout_width="53dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginLeft="176dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/picture_translate_resources"
+        android:layout_width="53dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginLeft="256dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/picture_translate_posts"
+        android:layout_width="53dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="332dp"
+        android:layout_marginLeft="332dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

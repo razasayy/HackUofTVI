@@ -7,13 +7,14 @@
     tools:context=".speech_translate_results">
 
     <ImageView
+        android:id="@+id/speech_translation_header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/text_translation"
         android:orientation="vertical"
         android:weightSum="1.0"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/linearLayout4"

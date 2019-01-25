@@ -7,7 +7,7 @@
     tools:context=".Posts">
 
     <ImageView
-        android:id="@+id/header"
+        android:id="@+id/posts_header"
         android:layout_width="412dp"
         android:layout_height="78dp"
         android:src="@drawable/Header"
@@ -15,71 +15,100 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/icons_at_bottom"
+        android:id="@+id/posts_icons_at_bottom"
         android:layout_width="wrap_content"
-        android:layout_height="62dp"
-        android:layout_marginBottom="8dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="4dp"
         android:src="@drawable/icons_at_bottom"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/community_posts"
-        android:layout_width="412dp"
-        android:layout_height="78dp"
-        android:layout_marginTop="108dp"
+        android:layout_width="366dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="88dp"
         android:src="@drawable/community_posts"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/header" />
+        app:layout_constraintTop_toTopOf="@+id/posts_header" />
+
 
     <ImageView
         android:id="@+id/community_channel"
-        android:layout_width="412dp"
-        android:layout_height="445dp"
+        android:layout_width="420dp"
+        android:layout_height="442dp"
         android:layout_marginTop="216dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="72dp"
         android:src="@drawable/community_channel"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/header"
         app:layout_constraintVertical_bias="0.0" />
-    <Button
-        android:id="@+id/photo_translate"
-        android:layout_width="68dp"
-        android:layout_height="66dp"
-        android:background="@android:color/transparent"
-        android:text=""
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="662dp" />
 
     <Button
-        android:id="@+id/voice_translate"
+        android:id="@+id/posts_home"
         android:layout_width="68dp"
         android:layout_height="66dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="4dp"
         android:background="@android:color/transparent"
         android:text=""
-        tools:layout_editor_absoluteX="171dp"
-        tools:layout_editor_absoluteY="662dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/resources"
+        android:id="@+id/posts_photo_translate"
         android:layout_width="68dp"
         android:layout_height="66dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginBottom="4dp"
         android:background="@android:color/transparent"
         android:text=""
-        tools:layout_editor_absoluteX="252dp"
-        tools:layout_editor_absoluteY="662dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/posts_home" />
 
     <Button
-        android:id="@+id/post"
+        android:id="@+id/posts_voice_translate"
         android:layout_width="68dp"
         android:layout_height="66dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginRight="172dp"
+        android:layout_marginBottom="4dp"
         android:background="@android:color/transparent"
         android:text=""
-        tools:layout_editor_absoluteX="327dp"
-        tools:layout_editor_absoluteY="662dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/posts_icons_at_bottom" />
+
+    <Button
+        android:id="@+id/posts_resources"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
+        android:layout_marginBottom="4dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/posts_post_icon"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="4dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
