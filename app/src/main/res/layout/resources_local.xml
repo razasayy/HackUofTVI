@@ -10,7 +10,7 @@
         android:id="@+id/local_resources_header"
         android:layout_width="412dp"
         android:layout_height="78dp"
-        android:src="@drawable/Header"
+        android:src="@drawable/header"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -99,7 +99,7 @@
         android:src="@drawable/bottom_bar2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/header"
+        app:layout_constraintTop_toTopOf="@+id/local_resources_header"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView

@@ -50,7 +50,7 @@
         android:id="@+id/resources_header"
         android:layout_width="412dp"
         android:layout_height="78dp"
-        android:src="@drawable/Header"
+        android:src="@drawable/header"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

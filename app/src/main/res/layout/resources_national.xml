@@ -10,7 +10,7 @@
         android:id="@+id/national_resources_header"
         android:layout_width="412dp"
         android:layout_height="78dp"
-        android:src="@drawable/Header"
+        android:src="@drawable/header"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -73,7 +73,6 @@
         android:id="@+id/national_resources_icons_at_bottom"
         android:layout_width="wrap_content"
         android:layout_height="62dp"
-        android:layout_centreHorizontal="true"
         android:layout_marginBottom="8dp"
         android:src="@drawable/icons_at_bottom"
         app:layout_constraintBottom_toBottomOf="parent"
