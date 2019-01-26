@@ -18,8 +18,18 @@
         android:id="@+id/posts_icons_at_bottom"
         android:layout_width="wrap_content"
         android:layout_height="78dp"
-        android:layout_marginBottom="4dp"
         android:src="@drawable/icons_at_bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/posts_selected_icon"
+        android:layout_width="56dp"
+        android:layout_height="5dp"
+        android:layout_marginStart="335dp"
+        android:layout_marginLeft="335dp"
+        android:layout_marginBottom="63dp"
+        android:src="@drawable/selected_icon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -37,16 +47,14 @@
 
     <ImageView
         android:id="@+id/community_channel"
-        android:layout_width="420dp"
+        android:layout_width="wrap_content"
         android:layout_height="442dp"
-        android:layout_marginTop="216dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="72dp"
+        android:layout_marginTop="218dp"
+        android:layout_marginBottom="68dp"
         android:src="@drawable/community_channel"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.294"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/posts_header"
         app:layout_constraintVertical_bias="1.0" />

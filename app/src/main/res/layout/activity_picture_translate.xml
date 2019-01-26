@@ -27,6 +27,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <ImageView
+        android:id="@+id/photo_translate_selected_icon"
+        android:layout_width="56dp"
+        android:layout_height="5dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginLeft="337dp"
+        android:layout_marginBottom="63dp"
+        android:src="@drawable/selected_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <Button
         android:id="@+id/photo_translate_back_button"
         android:layout_width="70dp"
