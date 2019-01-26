@@ -1,4 +1,4 @@
-package com.example.omair.migrateto;
+package com.example.omair.Thrive;
 
 import android.content.Intent;
 import android.os.Bundle;
