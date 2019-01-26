@@ -1,4 +1,4 @@
-package com.example.omair.migrateto;
+package com.example.omair.Thrive;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

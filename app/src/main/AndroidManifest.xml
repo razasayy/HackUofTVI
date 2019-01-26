@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.omair.migrateto">
+    package="com.example.omair.Thrive">
 
     <application
         android:allowBackup="true"
@@ -9,27 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".see_posts"></activity>
-        <activity android:name=".making_posts" />
-        <activity android:name=".intro" />
-        <activity android:name=".picture_translate" />
-        <activity android:name=".speech_translate_results" />
-        <activity android:name=".sign_up_page" />
-        <activity android:name=".Posts" />
+        <activity android:name="com.example.omair.Thrive.see_posts"></activity>
+        <activity android:name="com.example.omair.Thrive.making_posts" />
+        <activity android:name="com.example.omair.Thrive.intro" />
+        <activity android:name="com.example.omair.Thrive.picture_translate" />
+        <activity android:name="com.example.omair.Thrive.speech_translate_results" />
+        <activity android:name="com.example.omair.Thrive.sign_up_page" />
+        <activity android:name="com.example.omair.Thrive.Posts" />
         <activity
-            android:name=".profile_info"
+            android:name="com.example.omair.Thrive.profile_info"
             android:label="@string/title_activity_profile_info"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".login_screen"
+            android:name="com.example.omair.Thrive.login_screen"
             android:label="@string/title_activity_login_screen"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".resources_local"
+            android:name="com.example.omair.Thrive.resources_local"
             android:label="@string/title_activity_resources_local"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.omair.Thrive.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -39,7 +39,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SpeechTranslation"
+            android:name="com.example.omair.Thrive.SpeechTranslation"
             android:label="@string/title_activity_speech_translation"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
